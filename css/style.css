@@ -53,6 +53,9 @@
     border-top-right-radius:5px;
     border-bottom-right-radius: 5px;
 }
+.nav-search:hover{
+    box-shadow: 0 0 5px 2px #febd68;
+}   
 .search-select{
     background-color: #f3f3f3;
     border-top-left-radius:5px;
@@ -78,4 +81,22 @@
     border-top-right-radius:5px;
     border-bottom-right-radius: 5px;
     color: #0f1111;
+}
+/* Box 4 */
+span{
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* Box 6 */
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 1 rem ;
+    font-weight: 700;;
 }
