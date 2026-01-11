@@ -100,3 +100,53 @@ span{
     font-size: 1 rem ;
     font-weight: 700;;
 }
+/* Panel */
+.panel{
+    width: 100%;
+    height: 40px;
+    background-color: #232f3e;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-all{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.panel-options p{
+    margin-left: 10px;
+    display:inline;
+}
+.panel-options{
+    width:70%;
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero Section */
+.hero-section{
+background-image: url(../img/hero_image.jpg);
+height: 350px;
+background-size: cover;
+display: flex;
+justify-content: center;
+
+align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    display: flex;
+    color:black;
+    height: 40px;
+    justify-content: center;
+    font-size: 0.85rem; 
+    width: 80%;
+    align-items: center;
+    margin-bottom: 25px;
+}
